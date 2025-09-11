@@ -22,9 +22,10 @@ struct ContentView: View {
     
     var body: some View {
                     VStack(spacing: UIScreen.main.bounds.height < 700 ? 20 : 30) {
-            Text("CheckMenu")
+            Text("CheckMenu TEST")
                 .font(.largeTitle)
                 .fontWeight(.bold)
+                .foregroundColor(.red)
             
             Text("Сфотографируй текст для перевода")
                 .font(.headline)
