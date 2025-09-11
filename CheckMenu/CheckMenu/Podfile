@@ -1,6 +1,8 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '15.0'
 
+# Test comment for GitHub sync
+
 target 'CheckMenu' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
