@@ -98,7 +98,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .padding()
                     .frame(maxWidth: .infinity)
-                    .background(Color.blue)
+                    .background(Color.gray)
                     .cornerRadius(10)
                 }
                 
@@ -114,7 +114,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.green)
+                        .background(Color.gray)
                         .cornerRadius(10)
                     }
                     
@@ -136,7 +136,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .padding()
                             .frame(maxWidth: .infinity)
-                            .background(Color.orange)
+                            .background(Color.gray)
                             .cornerRadius(10)
                         }
                         .disabled(isTranslating)
